@@ -137,7 +137,7 @@ function EditBook() {
             </div>
 
             <button type="submit" className="btn btn-primary">Update</button> 
-            {error &&< p>{error}</p>}
+            {error &&< p style={{color:"red"}}>{error}</p>}
            
           </form>
           

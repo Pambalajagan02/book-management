@@ -120,7 +120,7 @@ function AddBook() {
             </div>
 
             <button type="submit" className="btn btn-primary">Submit</button> 
-            {error &&< p>{error}</p>}
+            {error &&<p style={{color:"red"}}>{error}</p>}
            
           </form>
           
